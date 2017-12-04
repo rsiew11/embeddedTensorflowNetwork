@@ -1,0 +1,3 @@
+['/Users/akhome/tensorflow/tensorflow/examples/image_retraining/label.py', '/Users/akhome/embeddedTensorflowNetwork/results/spinner_or_tape', '/Users/akhome/embeddedTensorflowNetwork/images/spinner_or_tape/test_img.jpg']
+spinner (score = 0.99756)
+tape (score = 0.00244)
