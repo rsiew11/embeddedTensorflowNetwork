@@ -2,7 +2,7 @@
 
 DESTDIR=$1
 
-cd ~/embeddedTensorflowNetwork/results/$DESTDIR
+cd ~/embeddedTensorflowNetwork/results/
 
 zip -r $DESTDIR.zip $DESTDIR
 
@@ -10,3 +10,5 @@ zip -r $DESTDIR.zip $DESTDIR
 
 echo "netcat send"
 nc 128.237.234.198 1234 < $DESTDIR.zip
+
+cd ..
